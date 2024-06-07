@@ -1,0 +1,28 @@
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.weather-info img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.toggle-container label {
+  margin-right: 10px;
+}

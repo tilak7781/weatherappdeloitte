@@ -1,0 +1,26 @@
+.hourly-forecast {
+  padding: 20px;
+}
+
+.hourly-forecast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.hourly-forecast-card {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hourly-forecast-card img {
+  width: 50px;
+  height: 50px;
+}
+
+.hourly-forecast-card p {
+  margin: 5px 0;
+}
